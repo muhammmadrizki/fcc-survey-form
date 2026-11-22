@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming Languange </title>
+</head>
+
+<body>
+  <h1 id="title">Programming Language Survey</h1>
+
+  <p id="description">
+    Let's share your experience and favorite  using programming languages with us!
+  </p>
+
+  <form id="survey-form">
+
+    <label id="name-label" for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <br/>
+    
+    <label id="email-label" for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <br/>
+
+    <label id="number-label" for="number">Years of Programming Experience:</label>
+    <input type="number" id="number" name="experience" placeholder="Years of experience" min="0" max="110">
+
+    <br/>
+
+    <label for="dropdown">Favorite Programming Language:</label>
+    <select id="dropdown" name="favorite-language">
+      <option value="javascript">JavaScript</option>
+      <option value="python">Python</option>
+      <option value="java">Java</option>
+      <option value="php">PHP</option>
+      <option value="csharp">C#</option>
+      <option value="cpp">C++</option>
+      <option value="typescript">TypeScript</option>
+      <option value="go">Go</option>
+    </select>
+
+    <br/>
+
+    <p>Which programming field are you interested in?</p>
+
+    <label>
+      <input type="radio" name="field" value="frontend">
+      Front-End Development
+    </label>
+
+    <br/>
+
+    <label>
+      <input type="radio" name="field" value="backend">
+      Back-End Development
+    </label>
+
+    <br/>
+
+    <label>
+      <input type="radio" name="field" value="fullstack">
+      Full-Stack Development
+    </label>
+
+    <br/>
+
+    <label>
+      <input type="radio" name="field" value="mobile">
+      Mobile Development
+    </label>
+
+    <br/>
+
+    <p>Which languages have you learned?</p>
+
+    <label>
+      <input type="checkbox" value="html" name="languages">
+      HTML
+    </label>
+
+    <br>
+
+    <label>
+      <input type="checkbox" value="css" name="languages">
+      CSS
+    </label>
+
+    <br>
+
+    <label>
+      <input type="checkbox" value="javascript" name="languages">
+      JavaScript
+    </label>
+
+    <br>
+
+    <label>
+      <input type="checkbox" value="python" name="languages">
+      Python
+    </label>
+
+    <br>
+
+    <label>
+      <input type="checkbox" value="php" name="languages">
+      PHP
+    </label>
+
+    <br>
+
+    <label>
+      <input type="checkbox" value="rust" name="languages">
+      Rust
+    </label>
+
+    <br/>
+    <br/>
+
+    <label for="comments">Additional Comments:</label>
+
+    <br/>
+    <br/>
+
+    <textarea id="comments" name="comments" placeholder="Share your comments here..."></textarea>
+
+    <br/>
+    <br/>
+
+    <button type="submit" id="submit">Submit Survey</button>
+
+  </form>
+</body>
+
+</html>
